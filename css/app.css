@@ -1,0 +1,81 @@
+body{
+    background-color: #212529;
+}
+* {
+    color: white;
+}
+.navbar-collapse {
+flex-grow: 0;
+}
+.py-5 {
+padding-top: 1rem!important;
+padding-bottom: 1rem!important;
+}
+.text-muted {
+--bs-text-opacity: 1;
+color: #0087ff!important;
+}
+.btn-secondary {
+background-color: #a20101;
+border-color: #ff0000;
+}
+.card-body, .shadow-sm, .rem8{
+border-radius: 20px;
+background: #181818;
+}
+p {
+margin-top: 0px;
+}
+.container-flex {
+margin: 5%;
+}
+.card-body {
+padding: 10px 10px;
+}
+.row>* {
+padding-right: calc(var(--bs-gutter-x) * .5);
+padding-left: calc(var(--bs-gutter-x) * .5);
+}
+.card-text {
+font-size: 80%;
+}
+
+
+/* fallback */
+@font-face {
+    font-family: 'icon';
+    font-style: normal;
+    font-weight: 400;
+    src: url(IconsRound.woff2) format('woff2');
+  }
+  
+  .micon {
+    font-family: 'icon';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+  .rem8 {
+      font-size: 5rem;
+      background-color: rgb(58, 58, 58);
+  }
+  button:focus, a:focus {
+      outline-style: none;
+      border-color: rgb(2, 172, 25);
+      border-radius: 20px;
+      border-style:solid;
+      border-width: 2px;
+      box-sizing: border-box;
+  }
+  .py-2 {
+    padding-bottom: 0;
+}
