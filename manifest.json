@@ -1,0 +1,14 @@
+{
+"short_name": "Shivpaper",
+"name": "Shivpaper",
+"start_url": "/index.html",
+"background_color": "#1c1c1c",
+"display": "standalone",
+"theme_color": "#1c1c1c",
+"scope": "/index.html",
+"icons": [
+{"sizes": "96x96","src": "/iconfull.svg","type": "image/svg"},
+{"sizes": "144x144","src": "/iconfull.svg","type": "image/svg"},
+{"sizes": "512x512","src": "/iconfull.svg","type": "image/svg"}
+]
+}
