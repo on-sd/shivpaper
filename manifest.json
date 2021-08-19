@@ -1,7 +1,7 @@
 {
 "short_name": "Shivpaper",
 "name": "Shivpaper",
-"start_url": "/index.html",
+"start_url": "https://on-sd.github.io/shivpaper/index.html",
 "background_color": "#1c1c1c",
 "display": "standalone",
 "theme_color": "#1c1c1c",
