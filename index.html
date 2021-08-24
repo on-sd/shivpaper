@@ -8,7 +8,9 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/app.css">
 <link rel="manifest" href="/manifest.json">
-  <script src="/install.js"></script>
+  <script>
+window.addEventListener("load",async()=>{if("serviceWorker"in navigator)try{const registration=await navigator.serviceWorker.register("/sw.js");console.log("ServiceWorker registration successful with scope: ",registration.scope)}catch(err){console.error(err)}});
+</script>
 </head>
 <body>
   <nav class="navbar navbar-expand-sm navbar-dark fixed-top" aria-label="Eighth navbar example">
