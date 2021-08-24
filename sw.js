@@ -8,13 +8,13 @@ filesToCache=[
 "/laptop.html",
 "/logo.html",
 "/about.html",
-"/css/IconsRound.woff2",
 "/css/app.css",
 "/css/bootstrap.min.css",
+"/css/IconsRound.woff2",
 "/js/app.js",
 "/js/navitem.min.js",
 "/js/bootstrap.bundle.min.js",
-"/icon.svg",
+"/iconfull.svg",
 "/logo90.png",
 "/logo.png"
 ];
