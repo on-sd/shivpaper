@@ -1,14 +1,22 @@
 {
-"short_name": "Shivpaper",
-"name": "Shivpaper",
-"start_url": "https://on-sd.github.io/shivpaper/index.html",
-"background_color": "#1c1c1c",
-"display": "standalone",
-"theme_color": "#1c1c1c",
-"scope": "/index.html",
-"icons": [
-{"sizes": "96x96","src": "/iconfull.svg","type": "image/svg"},
-{"sizes": "144x144","src": "/iconfull.svg","type": "image/svg"},
-{"sizes": "512x512","src": "/iconfull.svg","type": "image/svg"}
-]
+  "short_name": "Shivpaper",
+  "name": "Shivpaper",
+  "description": "wallpaper webside",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/logo90.png",
+      "type": "image/png",
+      "sizes": "90x90"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": " #212529",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "rgb(28, 28, 28)"
 }
