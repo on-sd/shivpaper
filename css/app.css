@@ -12,6 +12,18 @@ flex-grow: 0;
 padding-top: 1rem!important;
 padding-bottom: 1rem!important;
 }
+.navbar {
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+}
+.navbar-dark .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+}
+toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: inset 0 0 0rem;
+}
 .text-muted {
 --bs-text-opacity: 1;
 color: #0087ff!important;
