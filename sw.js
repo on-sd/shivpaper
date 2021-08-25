@@ -10,7 +10,6 @@ filesToCache=[
 "/about.html",
 "/css/app.css",
 "/css/bootstrap.min.css",
-"/css/IconsRound.woff2",
 "/js/app.js",
 "/js/navitem.min.js",
 "/js/bootstrap.bundle.min.js",
