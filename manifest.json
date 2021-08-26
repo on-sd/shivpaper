@@ -4,7 +4,7 @@
   "description": "wallpaper webside",
   "icons": [
     {
-      "src": "/logo.png",
+      "src": "/logo90.png",
       "type": "image/png",
       "sizes": "144x144"
     },
