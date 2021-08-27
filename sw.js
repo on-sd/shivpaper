@@ -1,6 +1,6 @@
-const dataCacheName = "Shivpaper-data",
-const cacheName = "shivpaper",
-const filesToCache = [
+var dataCacheName = "Shivpaper-data";
+var cacheName = "shivpaper";
+var filesToCache = [
 "/",
 "/index.html",
 "/wallpaper.html",
