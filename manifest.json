@@ -4,13 +4,13 @@
   "description": "wallpaper webside",
   "icons": [
     {
-      "src": "/logo90.png",
-      "type": "image/png",
+      "src": "/iconfull.svg",
+      "type": "image/svg",
       "sizes": "144x144"
     },
     {
-      "src": "/logo90.png",
-      "type": "image/png",
+      "src": "/iconfull.svg",
+      "type": "image/svg",
       "sizes": "90x90"
     }
   ],
