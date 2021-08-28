@@ -4,7 +4,7 @@
   "description": "wallpaper webside",
   "icons": [
     {
-      "src": "https://on-sd.github.io/shivpaper/icon.png",
+      "src": "/shivpaper/icon.png",
       "type": "image/png",
       "sizes": "144x144"
     }
