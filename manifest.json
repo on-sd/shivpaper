@@ -4,19 +4,14 @@
   "description": "wallpaper webside",
   "icons": [
     {
-      "src": "/iconfull.svg",
-      "type": "image/svg",
+      "src": "/icon.png",
+      "type": "image/png",
       "sizes": "144x144"
-    },
-    {
-      "src": "/iconfull.svg",
-      "type": "image/svg",
-      "sizes": "90x90"
     }
   ],
   "start_url": "/index.html",
   "background_color": " #212529",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "rgb(28, 28, 28)"
+  "theme_color": "rgb(43, 43, 43)"
 }

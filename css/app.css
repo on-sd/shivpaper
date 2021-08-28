@@ -117,3 +117,8 @@ nav {
 .album {
     margin-top: -2rem;
 }
+.color {
+    background-color: rgb(85, 85, 85);
+    border-radius: 9px;
+    font-size: larger;
+}
