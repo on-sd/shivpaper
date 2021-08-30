@@ -1,4 +1,4 @@
-var dataCacheName="Shivpaper-data",
+/* var dataCacheName="Shivpaper-data",
 cacheName="shivpaper",
 filesToCache=[
  "/shivpaper/",
@@ -17,7 +17,7 @@ filesToCache=[
  "/shivpaper/icon.svg",
  "/shivpaper/icon.png",
 
-];
+];*/
 
 // self.addEventListener("install",function(e){console.log("[ServiceWorker] Install"),e.waitUntil(caches.open(cacheName).then(function(e){return console.log("[ServiceWorker] Caching app shell"),e.addAll(filesToCache)}))});
 // self.addEventListener("activate",function(e){return console.log("[ServiceWorker] Activate"),e.waitUntil(caches.keys().then(function(e){return Promise.all(e.map(function(e){if(e!==cacheName&&e!==dataCacheName)return console.log("[ServiceWorker] Removing old cache",e),caches.delete(e)}))})),self.clients.claim()});
