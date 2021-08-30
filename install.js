@@ -1,7 +1,7 @@
 window.addEventListener("load",async()=>{if("serviceWorker"in navigator)try{const registration=await navigator.serviceWorker.register("/shivpaper/sw.js");console.log("ServiceWorker registration successful with scope: ",registration.scope)}catch(err){console.error(err)}});
 
 let deferredPrompt;
-const addBtn = document.querySelector('.add-button');
+const addBtn = document.getElementById('add-button');
 addBtn.style.display = 'none';
 
 window.addEventListener('beforeinstallprompt', (e) => {
