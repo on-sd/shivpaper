@@ -1,31 +1,22 @@
-window.addEventListener("load",async()=>{if("serviceWorker"in navigator)try{const registration=await navigator.serviceWorker.register("/shivpaper/sw.js");console.log("ServiceWorker registration successful with scope: ",registration.scope)}catch(err){console.error(err)}});
+window.addEventListener("load",async()=>{if("serviceWorker"in navigator)try{const registration=await navigator.serviceWorker.register("/sw.js");console.log("ServiceWorker registration successful with scope: ",registration.scope)}catch(err){console.error(err)}
+var install = document.getElementById("install");
+install.style.display = 'none';
 
 let deferredPrompt;
-const addBtn = document.getElementById('add-button');
-addBtn.style.display = 'none';
-
 window.addEventListener('beforeinstallprompt', (e) => {
-  // Prevent Chrome 67 and earlier from automatically showing the prompt
   e.preventDefault();
-  // Stash the event so it can be triggered later.
   deferredPrompt = e;
-  // Update UI to notify the user they can add to home screen
-  addBtn.style.display = 'block';
-
-  addBtn.addEventListener('click', () => {
-    // hide our user interface that shows our A2HS button
-    addBtn.style.display = 'none';
-    // Show the prompt
+  install.style.display = 'block';
+  install.onclick = function() {
+    install.style.display = 'none';
     deferredPrompt.prompt();
-    // Wait for the user to respond to the prompt
     deferredPrompt.userChoice.then((choiceResult) => {
       if (choiceResult.outcome === 'accepted') {
-        console.log('User accepted the A2HS prompt');
+        console.log('PWA has Installed');
       } else {
-        console.log('User dismissed the A2HS prompt');
+        console.log('PWA Install Canceled');
       }
       deferredPrompt = null;
     });
-  });
+  }});
 });
-
