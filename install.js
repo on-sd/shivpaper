@@ -1,4 +1,6 @@
-window.addEventListener("load",async()=>{if("serviceWorker"in navigator)try{const registration=await navigator.serviceWorker.register("/sw.js");console.log("ServiceWorker registration successful with scope: ")}
+window.addEventListener("load",async()=>{if('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./pwa-examples/js13kpwa/sw.js');
+};
 var install = document.getElementById("install");
 install.style.display = 'none';
 
