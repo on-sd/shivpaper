@@ -1,5 +1,5 @@
 window.addEventListener("load",async()=>{if('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/on-sd/shivpaper/sw.js');
+  navigator.serviceWorker.register('/shivpaper/sw.js');
 };
 var install = document.getElementById("install");
 install.style.display = 'none';
