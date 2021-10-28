@@ -2,15 +2,15 @@ window.addEventListener("load",async()=>{if('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/shivpaper/sw.js');
 };
 var install = document.getElementById("install");
-install.style.display = 'none';
+// install.style.display = 'none';
 
 let deferredPrompt;
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
   deferredPrompt = e;
-  install.style.display = 'block';
+//   install.style.display = 'block';
   install.onclick = function() {
-    install.style.display = 'none';
+//     install.style.display = 'none';
     deferredPrompt.prompt();
     deferredPrompt.userChoice.then((choiceResult) => {
       if (choiceResult.outcome === 'accepted') {
